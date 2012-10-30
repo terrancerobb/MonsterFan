@@ -7,8 +7,8 @@ body {
 }
 div#header {
   background-color: #fff;
-  padding: 0 10%;
   width: 100%;
+  text-align: center;
 }
 div#header a {
   color: #789319;
@@ -20,9 +20,13 @@ div#header a:after {
   content: "—";
   margin: 0 10px;
 }
+div#header a:last-child::after {
+  content: "";
+  margin: 0;
+}
 div#heading {
   background: #fff;
-  color: #48063b;
+  color: #333;
   margin: 0;
   padding: 20px;
   position: relative;
@@ -36,7 +40,7 @@ div#heading h2 {
 #logo {
   background-color: #789319;
   background-image: url("../images/n.png");
-  border: 15px solid #6e135d;
+  border: 15px solid rgba(255,255,255,0.2);
   border-radius: 50%;
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
@@ -56,7 +60,7 @@ div#heading h2 {
   margin-left: -24px;
 }
 div.subheading {
-  background-color: #6e135d;
+  background-color: rgba(0,0,0,0.4);
   background-image: url("../images/n.png");
   border-bottom: solid 1px #82a01b;
   margin: 0;
