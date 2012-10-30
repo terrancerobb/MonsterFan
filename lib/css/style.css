@@ -23,7 +23,7 @@ div#header a:after{
 }
 div#heading{
 	background: #fff;
-	color: #48063B;
+	color: #8e1832;
 	margin: 0;
 	padding:20px;
 	position: relative;
@@ -55,7 +55,13 @@ div#heading h2{
 	margin-left: -24px;
 }
 div.subheading{
-	background-color: #6E135D;
+	background: -moz-linear-gradient(top,  rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.4) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.6)), color-stop(100%,rgba(0,0,0,0.4)));
+	background: -webkit-linear-gradient(top,  rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.4) 100%);
+	background: -o-linear-gradient(top,  rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.4) 100%);
+	background: -ms-linear-gradient(top,  rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.4) 100%);
+	background: linear-gradient(to bottom,  rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.4) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#99000000', endColorstr='#66000000',GradientType=0 );
 	background-image: url(../images/n.png);
 	border-bottom: solid 1px #82a01b;
 	margin: 0;
