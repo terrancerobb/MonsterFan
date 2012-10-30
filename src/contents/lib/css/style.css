@@ -6,14 +6,28 @@ body {
 	font-family: 'Open Sans', sans-serif;
 	margin: 0;
 }
+div#header{
+	background-color: #fff;
+	padding: 0 10%;
+	width: 100%;
+}
+div#header a{
+	color: #789319;
+	font-size: 1.4em;
+	font-weight: 300;
+	text-decoration: none;
+}
+div#header a:after{
+	content: "—";
+	margin: 0 10px;
+}
 div#heading{
 	background: #fff;
-	background-image: url(../images/nw.png);
 	color: #48063B;
 	margin: 0;
 	padding:20px;
-	text-align: center;
 	position: relative;
+	text-align: center;
 }
 div#heading h2{
 	font-weight: 300;
@@ -21,7 +35,8 @@ div#heading h2{
 	margin: 15px;
 }
 #logo{
-	background: #adc94c;
+	background-color: #789319;
+	background-image: url(../images/n.png);
 	border: 15px solid #6e135d;
 	border-radius: 50%; -moz-border-radius: 50%; -webkit-border-radius: 50%;
 	color: #fff;
@@ -40,37 +55,35 @@ div#heading h2{
 	margin-left: -24px;
 }
 div.subheading{
-	background-color: rgba(0,0,0,0.4);
-	background-image: url(../images/na.png);
-	background-repeat: no-repeat;
-	background-position: top center;
-	width: 100%;
-	position: relative;
-	margin: 0;
+	background-color: #6E135D;
+	background-image: url(../images/n.png);
 	border-bottom: solid 1px #82a01b;
+	margin: 0;
+	position: relative;
+	width: 100%;
 }
 div.subcontainer{
-	width: 75%;
+	width: 80%;
 	margin: 0 auto;
 	padding: 1em;
 }
 div.subheading h3{
-	margin: 0;
+	color: #fff;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 4em;
 	font-weight: 300;
-	color: #779319;
+	margin: 0;
 }
 .arrow-down {
-	width: 0; 
-	height: 0;
-	margin: 0 auto; 
 	border-left: 75px solid transparent;
 	border-right: 75px solid transparent;
 	border-top: 75px solid #fff;
-	position: absolute;
+	height: 0;
 	left: 50%;
-	margin-left:-37px;
+	margin: 0 auto; 
+	margin-left:-75px;
+	position: absolute;
+	width: 0; 
 }
 div.section{
 	color: #191e05;
@@ -83,8 +96,8 @@ div.section h4{
 	margin: 0;
 }
 div.section p{
-	text-shadow: 1px 1px 0 #82A01B;
 	font-size: 1.2em;
+	text-shadow: 1px 1px 0 #82A01B;
 }
 div.section strong{
 	font-weight: 700;
