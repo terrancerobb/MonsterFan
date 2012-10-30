@@ -2,13 +2,13 @@
 
 body {
 	background-color: #789319;
-	background-image: url(lib/images/n.png);
+	background-image: url(../images/n.png);
 	font-family: 'Open Sans', sans-serif;
 	margin: 0;
 }
 div#heading{
 	background: #fff;
-	background-image: url(lib/images/nw.png);
+	background-image: url(../images/nw.png);
 	color: #48063B;
 	margin: 0;
 	padding:20px;
@@ -41,7 +41,7 @@ div#heading h2{
 }
 div.subheading{
 	background-color: rgba(0,0,0,0.4);
-	background-image: url(lib/images/na.png);
+	background-image: url(../images/na.png);
 	background-repeat: no-repeat;
 	background-position: top center;
 	width: 100%;
