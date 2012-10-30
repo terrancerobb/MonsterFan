@@ -1,0 +1,86 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,700italic,400,300|Cinzel+Decorative:700);
+
+body {
+	background-color: #789319;
+	background-image: url(bg.jpg);
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+}
+div#heading{
+	background: #fff;
+	color: #48063B;
+	margin: 0;
+	padding:20px;
+	text-align: center;
+	position: relative;
+}
+div#heading h2{
+	font-weight: 300;
+	font-size: 5em;
+	margin: 15px;
+}
+#logo{
+	background: #adc94c;
+	border: 15px solid #6e135d;
+	border-radius: 50%; -moz-border-radius: 50%; -webkit-border-radius: 50%;
+	color: #fff;
+	font-family: 'Cinzel Decorative', serif;
+	font-size: 150px;
+	font-style: italic;
+	height: 140px;
+	left: 130px;
+	line-height: 140px;
+	margin: 0 auto;
+	-moz-box-sizing: border-box;
+	text-shadow: 5px 0 0 #6e135d, 4px 0 0 #6e135d;
+	width: 140px;
+}
+div.subheading{
+	background-color: rgba(0,0,0,0.4);
+	width: 100%;
+	position: relative;
+	margin: 0;
+	border-bottom: solid 1px #82a01b;
+	box-shadow: inset 0 25px 45px rgba(0,0,0,0.3);
+}
+div.subcontainer{
+	width: 75%;
+	margin: 0 auto;
+	padding: 1em;
+}
+div.subheading h3{
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 4em;
+	font-weight: 300;
+	color: #779319;
+}
+.arrow-down {
+	width: 0; 
+	height: 0;
+	margin: 0 auto; 
+	border-left: 75px solid transparent;
+	border-right: 75px solid transparent;
+	border-top: 75px solid #fff;
+	position: absolute;
+	left: 50%;
+	margin-left:-37px;
+}
+div.section{
+	color: #191e05;
+}
+div.section h4{
+	color: #ddf390;
+	font-style: italic;
+	font-weight: 300;
+	font-size: 3em;
+	margin: 0;
+}
+div.section p{
+	text-shadow: 1px 1px 0 #82A01B;
+	font-size: 1.2em;
+}
+div.section strong{
+	font-weight: 700;
+	font-style: italic;
+}
