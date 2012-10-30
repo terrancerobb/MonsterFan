@@ -5,5 +5,6 @@
     "name": "Terry's Shit",
     "owner": "Terry",
     "description": "Let's do this shit."
-  }
+  },
+  "plugins": [ "./../node_modules/wintersmith-stylus" ]
 }

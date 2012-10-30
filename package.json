@@ -1,0 +1,9 @@
+{
+  "name"            : "MonsterFan",
+  "author"          : "Terrance Robb",
+  "version"         : "0.0.1",
+  "homepage"        : "http://terrancerobb.github.com/MonserFan",
+  "dependencies": {
+    "wintersmith-stylus": ""
+  }
+}
