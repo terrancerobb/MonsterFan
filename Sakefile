@@ -1,0 +1,14 @@
+import exec from "child_process"
+
+var cwd = "./src"
+
+task("build", ()=> {
+  exec("wintersmith build", { cwd }, ()=> {
+    console.log("MonsterFan project has been built.")
+  })
+})
+
+task("preview", ()=> {
+  console.log("Preview server is running on port 8080")
+  exec("wintersmith preview", { cwd })
+})
