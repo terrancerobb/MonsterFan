@@ -8,8 +8,8 @@ body {
 }
 div#header{
 	background-color: #fff;
-	padding: 0 10%;
 	width: 100%;
+	text-align: center;
 }
 div#header a{
 	color: #789319;
@@ -21,9 +21,13 @@ div#header a:after{
 	content: "—";
 	margin: 0 10px;
 }
+div#header a:last-child::after{
+	content:"";
+	margin: 0;
+}
 div#heading{
 	background: #fff;
-	color: #8e1832;
+	color: #333;
 	margin: 0;
 	padding:20px;
 	position: relative;
@@ -37,7 +41,7 @@ div#heading h2{
 #logo{
 	background-color: #789319;
 	background-image: url(../images/n.png);
-	border: 15px solid #6e135d;
+	border: 15px solid rgba(255,255,255,0.2);
 	border-radius: 50%; -moz-border-radius: 50%; -webkit-border-radius: 50%;
 	color: #fff;
 	font-family: 'Cinzel Decorative', serif;
@@ -55,13 +59,7 @@ div#heading h2{
 	margin-left: -24px;
 }
 div.subheading{
-	background: -moz-linear-gradient(top,  rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.4) 100%);
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.6)), color-stop(100%,rgba(0,0,0,0.4)));
-	background: -webkit-linear-gradient(top,  rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.4) 100%);
-	background: -o-linear-gradient(top,  rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.4) 100%);
-	background: -ms-linear-gradient(top,  rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.4) 100%);
-	background: linear-gradient(to bottom,  rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.4) 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#99000000', endColorstr='#66000000',GradientType=0 );
+	background-color: rgba(0,0,0,0.4);
 	background-image: url(../images/n.png);
 	border-bottom: solid 1px #82a01b;
 	margin: 0;
