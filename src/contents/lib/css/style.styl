@@ -1,31 +1,31 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,700italic,400,300|Cinzel+Decorative:700);
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:300italic,700italic,400,300|Cinzel+Decorative:700");
 
 body {
 	background-color: #789319;
-	background-image: url(../images/n.png);
+	background-image: url("../images/n.png");
 	font-family: 'Open Sans', sans-serif;
 	margin: 0;
 }
-div#header{
+div.header{
 	background-color: #fff;
 	width: 100%;
 	text-align: center;
 }
-div#header a{
-	color: #789319;
+div.header a{
+	color: #777;
 	font-size: 1.4em;
-	font-weight: 300;
+	font-weight: 400;
 	text-decoration: none;
 }
-div#header a:after{
+div.header a:after{
 	content: "—";
 	margin: 0 10px;
 }
-div#header a:last-child::after{
+div.header a:last-child::after{
 	content:"";
 	margin: 0;
 }
-div#heading{
+div.heading{
 	background: #fff;
 	color: #333;
 	margin: 0;
@@ -33,26 +33,30 @@ div#heading{
 	position: relative;
 	text-align: center;
 }
-div#heading h2{
+div.heading h2{
 	font-weight: 300;
 	font-size: 5em;
 	margin: 15px;
 }
+div.heading h2 strong{
+	color: #d19064;
+	font-family: 'Cinzel Decorative', serif;
+	font-weight: 700;
+}
 #logo{
 	background-color: #789319;
-	background-image: url(../images/n.png);
+	background-image: url("../images/n.png");
 	border: 15px solid rgba(255,255,255,0.2);
 	border-radius: 50%; -moz-border-radius: 50%; -webkit-border-radius: 50%;
 	color: #fff;
 	font-family: 'Cinzel Decorative', serif;
 	font-size: 150px;
-	font-style: italic;
 	height: 140px;
 	left: 130px;
 	line-height: 140px;
 	margin: 0 auto;
 	-moz-box-sizing: border-box;
-	text-shadow: 5px 0 0 #6e135d, 4px 0 0 #6e135d;
+	text-shadow: 5px 0 0 #7a8e35, 4px 0 0 #7a8e35;
 	width: 140px;
 }
 #logo strong{
@@ -60,7 +64,7 @@ div#heading h2{
 }
 div.subheading{
 	background-color: rgba(0,0,0,0.4);
-	background-image: url(../images/n.png);
+	background-image: url("../images/n.png");
 	border-bottom: solid 1px #82a01b;
 	margin: 0;
 	position: relative;

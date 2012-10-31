@@ -1,109 +1,110 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,700italic,400,300|Cinzel+Decorative:700);
-
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:300italic,700italic,400,300|Cinzel+Decorative:700");
 body {
-	background-color: #789319;
-	background-image: url(../images/n.png);
-	font-family: 'Open Sans', sans-serif;
-	margin: 0;
+  background-color: #789319;
+  background-image: url("../images/n.png");
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
 }
-div#header{
-	background-color: #fff;
-	width: 100%;
-	text-align: center;
+div.header {
+  background-color: #fff;
+  width: 100%;
+  text-align: center;
 }
-div#header a{
-	color: #789319;
-	font-size: 1.4em;
-	font-weight: 300;
-	text-decoration: none;
+div.header a {
+  color: #789319;
+  font-size: 1.4em;
+  font-weight: 300;
+  text-decoration: none;
 }
-div#header a:after{
-	content: "—";
-	margin: 0 10px;
+div.header a:after {
+  content: "—";
+  margin: 0 10px;
 }
-div#header a:last-child::after{
-	content:"";
-	margin: 0;
+div.header a:last-child::after {
+  content: "";
+  margin: 0;
 }
-div#heading{
-	background: #fff;
-	color: #333;
-	margin: 0;
-	padding:20px;
-	position: relative;
-	text-align: center;
+div.heading {
+  background: #fff;
+  color: #333;
+  margin: 0;
+  padding: 20px;
+  position: relative;
+  text-align: center;
 }
-div#heading h2{
-	font-weight: 300;
-	font-size: 5em;
-	margin: 15px;
+div.heading h2 {
+  font-weight: 300;
+  font-size: 5em;
+  margin: 15px;
 }
-#logo{
-	background-color: #789319;
-	background-image: url(../images/n.png);
-	border: 15px solid rgba(255,255,255,0.2);
-	border-radius: 50%; -moz-border-radius: 50%; -webkit-border-radius: 50%;
-	color: #fff;
-	font-family: 'Cinzel Decorative', serif;
-	font-size: 150px;
-	font-style: italic;
-	height: 140px;
-	left: 130px;
-	line-height: 140px;
-	margin: 0 auto;
-	-moz-box-sizing: border-box;
-	text-shadow: 5px 0 0 #6e135d, 4px 0 0 #6e135d;
-	width: 140px;
+#logo {
+  background-color: #789319;
+  background-image: url("../images/n.png");
+  border: 15px solid rgba(255,255,255,0.2);
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  color: #fff;
+  font-family: 'Cinzel Decorative', serif;
+  font-size: 150px;
+  font-style: italic;
+  height: 140px;
+  left: 130px;
+  line-height: 140px;
+  margin: 0 auto;
+  -moz-box-sizing: border-box;
+  text-shadow: 5px 0 0 #6e135d, 4px 0 0 #6e135d;
+  width: 140px;
 }
-#logo strong{
-	margin-left: -24px;
+#logo strong {
+  margin-left: -24px;
 }
-div.subheading{
-	background-color: rgba(0,0,0,0.4);
-	background-image: url(../images/n.png);
-	border-bottom: solid 1px #82a01b;
-	margin: 0;
-	position: relative;
-	width: 100%;
+div.subheading {
+  background-color: rgba(0,0,0,0.4);
+  background-image: url("../images/n.png");
+  border-bottom: solid 1px #82a01b;
+  margin: 0;
+  position: relative;
+  width: 100%;
 }
-div.subcontainer{
-	width: 80%;
-	margin: 0 auto;
-	padding: 1em;
+div.subcontainer {
+  width: 80%;
+  margin: 0 auto;
+  padding: 1em;
 }
-div.subheading h3{
-	color: #fff;
-	font-family: 'Open Sans', sans-serif;
-	font-size: 4em;
-	font-weight: 300;
-	margin: 0;
+div.subheading h3 {
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 4em;
+  font-weight: 300;
+  margin: 0;
 }
 .arrow-down {
-	border-left: 75px solid transparent;
-	border-right: 75px solid transparent;
-	border-top: 75px solid #fff;
-	height: 0;
-	left: 50%;
-	margin: 0 auto; 
-	margin-left:-75px;
-	position: absolute;
-	width: 0; 
+  border-left: 75px solid transparent;
+  border-right: 75px solid transparent;
+  border-top: 75px solid #fff;
+  height: 0;
+  left: 50%;
+  margin: 0 auto;
+  margin-left: -75px;
+  position: absolute;
+  width: 0;
 }
-div.section{
-	color: #191e05;
+div.section {
+  color: #191e05;
 }
-div.section h4{
-	color: #ddf390;
-	font-style: italic;
-	font-weight: 300;
-	font-size: 3em;
-	margin: 0;
+div.section h4 {
+  color: #ddf390;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 3em;
+  margin: 0;
 }
-div.section p{
-	font-size: 1.2em;
-	text-shadow: 1px 1px 0 #82A01B;
+div.section p {
+  font-size: 1.2em;
+  text-shadow: 1px 1px 0 #82a01b;
 }
-div.section strong{
-	font-weight: 700;
-	font-style: italic;
+div.section strong {
+  font-weight: 700;
+  font-style: italic;
 }
