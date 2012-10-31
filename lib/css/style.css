@@ -5,26 +5,26 @@ body {
   font-family: 'Open Sans', sans-serif;
   margin: 0;
 }
-div#header {
+div.header {
   background-color: #fff;
   width: 100%;
   text-align: center;
 }
-div#header a {
+div.header a {
   color: #789319;
   font-size: 1.4em;
   font-weight: 300;
   text-decoration: none;
 }
-div#header a:after {
+div.header a:after {
   content: "—";
   margin: 0 10px;
 }
-div#header a:last-child::after {
+div.header a:last-child::after {
   content: "";
   margin: 0;
 }
-div#heading {
+div.heading {
   background: #fff;
   color: #333;
   margin: 0;
@@ -32,7 +32,7 @@ div#heading {
   position: relative;
   text-align: center;
 }
-div#heading h2 {
+div.heading h2 {
   font-weight: 300;
   font-size: 5em;
   margin: 15px;
