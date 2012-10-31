@@ -1,26 +1,37 @@
 @import url("http://fonts.googleapis.com/css?family=Open+Sans:300italic,700italic,400,300|Cinzel+Decorative:700");
 body {
-  background-color: #789319;
   background-image: url("../images/n.png");
   font-family: 'Open Sans', sans-serif;
   margin: 0;
 }
-div.header {
+.fixed {
+  position: fixed;
+}
+.centered {
+  text-align: center;
+}
+.green {
+  background-color: #789319;
+}
+.grey {
+  background-color: #bbb;
+}
+div.menu {
   background-color: #fff;
   width: 100%;
   text-align: center;
 }
-div.header a {
+div.menu a {
   color: #777;
   font-size: 1.4em;
   font-weight: 400;
   text-decoration: none;
 }
-div.header a:after {
+div.menu a:after {
   content: "—";
   margin: 0 10px;
 }
-div.header a:last-child::after {
+div.menu a:last-child::after {
   content: "";
   margin: 0;
 }
@@ -38,9 +49,12 @@ div.heading h2 {
   margin: 15px;
 }
 div.heading h2 strong {
-  color: #d19064;
+  color: #ffa86e;
+}
+.branded {
   font-family: 'Cinzel Decorative', serif;
   font-weight: 700;
+  font-style: normal !important;
 }
 #logo {
   background-color: #789319;
@@ -64,12 +78,18 @@ div.heading h2 strong {
   margin-left: -24px;
 }
 div.subheading {
-  background-color: rgba(0,0,0,0.4);
   background-image: url("../images/n.png");
-  border-bottom: solid 1px #82a01b;
   margin: 0;
   position: relative;
   width: 100%;
+}
+.green div.subheading {
+  background-color: rgba(0,0,0,0.3);
+  border-bottom: solid 1px #82a01b;
+}
+.grey div.subheading {
+  background-color: rgba(0,0,0,0.2);
+  border-bottom: solid 1px #ddd;
 }
 div.subcontainer {
   width: 80%;
@@ -83,6 +103,9 @@ div.subheading h3 {
   font-weight: 300;
   margin: 0;
 }
+.grey div.subheading h3 {
+  color: #222;
+}
 .arrow-down {
   border-left: 75px solid transparent;
   border-right: 75px solid transparent;
@@ -94,21 +117,71 @@ div.subheading h3 {
   position: absolute;
   width: 0;
 }
-div.section {
-  color: #191e05;
-}
 div.section h4 {
-  color: #ddf390;
   font-style: italic;
   font-weight: 300;
   font-size: 3em;
   margin: 0;
 }
+.green div.section {
+  color: #ddf390;
+}
+.grey div.section {
+  color: #333;
+  text-shadow: 1px 1px 0 #ccc;
+}
 div.section p {
   font-size: 1.2em;
-  text-shadow: 1px 1px 0 #82a01b;
+}
+.grey div.section p {
+  text-shadow: 1px 1px 0 #ccc;
 }
 div.section strong {
   font-weight: 700;
   font-style: italic;
+}
+div.section ul {
+  overflow: hidden;
+  width: 100%;
+  text-align: center;
+  list-style: none;
+}
+div.section li {
+  background-color: rgba(255,255,255,0.1);
+  display: inline block;
+  float: left;
+  margin: 2%;
+  position: relative;
+  text-align: left;
+  width: 28%;
+}
+div.section li:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-width: 0 16px 16px 0;
+  border-style: solid;
+  border-color: #8f8f8f #bbb;
+}
+div.section li h3 {
+  background-color: rgba(0,0,0,0.1);
+  margin: 0 0 5px 0;
+  padding: 5px;
+  box-sizing: border-box;
+  text-align: center;
+}
+div.section li p {
+  margin: 12px;
+}
+#footer {
+  width: 100%;
+  background-color: #222;
+  margin: 0;
+  padding: 15px 0;
+  text-align: right;
+}
+#footer small {
+  margin-right: 50px;
+  color: #aaa;
 }
