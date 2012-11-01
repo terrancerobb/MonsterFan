@@ -4,9 +4,6 @@ body {
   font-family: 'Open Sans', sans-serif;
   margin: 0;
 }
-.fixed {
-  position: fixed;
-}
 .centered {
   text-align: center;
 }
