@@ -97,7 +97,7 @@ div.subheading {
 div.subcontainer {
   width: 80%;
   margin: 0 auto;
-  padding: 1em;
+  padding: 2em 1em 1em;
 }
 div.subheading h3 {
   color: #fff;
