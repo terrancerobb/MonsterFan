@@ -19,22 +19,28 @@ body {
 div.grey.last {
   border-bottom: none;
 }
-div.menu {
+nav.menu {
   background-color: #fff;
   width: 100%;
   text-align: center;
 }
-div.menu a {
+nav.menu ul {
+  list-style: none;
+}
+nav.menu ul li {
+  display: inline-block;
+}
+nav.menu a {
   color: #777;
   font-size: 1.4em;
   font-weight: 400;
   text-decoration: none;
 }
-div.menu a:after {
+nav.menu li:after {
   content: "—";
   margin: 0 10px;
 }
-div.menu a:last-child::after {
+nav.menu li:last-child::after {
   content: "";
   margin: 0;
 }
@@ -42,7 +48,7 @@ div.heading {
   background: #fff;
   color: #333;
   margin: 0;
-  padding: 20px;
+  padding: 20px 0;
   position: relative;
   text-align: center;
 }
@@ -58,27 +64,6 @@ div.heading h2 strong {
   font-family: 'Cinzel Decorative', serif;
   font-weight: 700;
   font-style: normal !important;
-}
-#logo {
-  background-color: #789319;
-  background-image: url("../images/n.png");
-  border: 15px solid rgba(255,255,255,0.2);
-  border-radius: 50%;
-  -moz-border-radius: 50%;
-  -webkit-border-radius: 50%;
-  color: #fff;
-  font-family: 'Cinzel Decorative', serif;
-  font-size: 150px;
-  height: 140px;
-  left: 130px;
-  line-height: 140px;
-  margin: 0 auto;
-  -moz-box-sizing: border-box;
-  text-shadow: 5px 0 0 #7a8e35, 4px 0 0 #7a8e35;
-  width: 140px;
-}
-#logo strong {
-  margin-left: -24px;
 }
 div.subheading {
   background-image: url("../images/n.png");
@@ -97,7 +82,10 @@ div.subheading {
 div.subcontainer {
   width: 80%;
   margin: 0 auto;
-  padding: 2em 1em 1em;
+  padding: 3em 1em 1em;
+}
+div.subcontainer.first {
+  padding: 1em;
 }
 div.subheading h3 {
   color: #fff;
@@ -120,39 +108,41 @@ div.subheading h3 {
   position: absolute;
   width: 0;
 }
-div.section {
+section {
   background-image: url("../images/s.png");
 }
-div.section h4 {
+section h4 {
   font-style: italic;
   font-weight: 300;
   font-size: 3em;
   margin: 0;
 }
-.green div.section {
+.green section {
   color: #ddf390;
 }
-.grey div.section {
+.grey section {
   color: #333;
   text-shadow: 1px 1px 0 #ccc;
 }
-div.section p {
+section p {
   font-size: 1.2em;
 }
-.grey div.section p {
+.grey section p {
   text-shadow: 1px 1px 0 #ccc;
+  margin: 5px auto;
 }
-div.section strong {
+section strong {
   font-weight: 700;
   font-style: italic;
 }
-div.section ul {
+section ul {
   overflow: hidden;
   width: 100%;
   text-align: center;
   list-style: none;
+  margin: 50px 0;
 }
-div.section li {
+section li {
   background-color: rgba(255,255,255,0.1);
   display: inline block;
   float: left;
@@ -161,7 +151,7 @@ div.section li {
   text-align: left;
   width: 28%;
 }
-div.section li:before {
+section li:before {
   content: "";
   position: absolute;
   top: 0;
@@ -170,14 +160,14 @@ div.section li:before {
   border-style: solid;
   border-color: #8f8f8f #bbb;
 }
-div.section li h3 {
+section li h3 {
   background-color: rgba(0,0,0,0.1);
   margin: 0 0 5px;
   padding: 5px;
   box-sizing: border-box;
   text-align: center;
 }
-div.section li p {
+section li p {
   margin: 12px;
 }
 #footer {
@@ -192,4 +182,34 @@ div.section li p {
 #footer small {
   margin-right: 50px;
   color: #aaa;
+}
+.sticky ul {
+  margin: 0;
+  padding: 0;
+}
+.sticky ul li a {
+  margin: 4px;
+}
+nav.menu  li.logo {
+  display: none;
+  margin-right: 7%;
+}
+nav.menu li.logo.stuckTitle {
+  display: inline-block;
+}
+nav.menu li.logo a {
+  font-size: 1.5em;
+}
+nav.menu li.stuckTitle strong.branded {
+  color: #f26b11;
+}
+nav.menu li.stuckTitle:after {
+  content: "";
+}
+nav.menu.sticky {
+  background-color: rgba(255,255,255,0.95);
+  box-shadow: 0 1px 10px rgba(0,0,0,0.5);
+  position: fixed;
+  top: 0;
+  z-index: 10000;
 }
