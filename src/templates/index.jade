@@ -3,20 +3,30 @@ html(lang="en")
 		meta(charset="utf-8")
 		title Welcome
 		link(rel='stylesheet', href='lib/css/style.css')
-	body
+		script(src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js", type="application/javascript")
+		script(src="lib/js/waypoints.min.js", type="application/javascript")
+		script(src='lib/js/mf.js')
+	body#top
 		div.heading 
 			h2 What is <strong class="branded">Monsterfan?</strong>
-			div.menu
-				a(href="#connect") Connect
-				a(href="#wantsAndNeeds") Wants and Needs
-				a(href="#appeal") Appeal
-				a(href="#features") Features
+			nav.menu
+				ul
+					li.logo
+						a(href="#top") What is <strong class="branded">Monsterfan?</strong>
+					li
+						a(href="#connect") Connect
+					li
+						a(href="#wantsAndNeeds") Wants and Needs
+					li
+						a(href="#appeal") Appeal
+					li
+						a(href="#features") Features
 		div.green
 			div#connect.subheading
 				div.arrow-down
 				div.subcontainer
 					h3 Connect.
-			div.section
+			section
 				div.subcontainer.first
 					h4 A new way to meet others who love the same things that you do.
 					p Finding people with interests relevent to our own is part of what we strive for every single day. Now, you can do this and more with ease!
@@ -26,7 +36,7 @@ html(lang="en")
 				div.subcontainer.centered
 					img(src="lib/images/g.png")
 					h3 Wants and Needs.
-			div.section
+			section
 				div.subcontainer
 					h4 What is needed from <strong class="branded">Monsterfan</strong>?
 					p Several things need to be covered when it comes to what we want MonsterFan to do, to be, and to have.
@@ -45,7 +55,7 @@ html(lang="en")
 				div.subcontainer.centered
 					img(src="lib/images/a.png")
 					h3 Appeal.
-			div.section
+			section
 				div.subcontainer
 					h4 How can we appeal to our niché?
 					p For every startup, there needs to be an original userbase. That 'niché' group of people that have "been around since alpha." These users are incredibly important, and will likely shape what will inevitably be the type of users and content we will see on MonsterFan.
@@ -55,7 +65,7 @@ html(lang="en")
 				div.subcontainer.centered
 					img(src="lib/images/f.png")
 					h3 Features.
-			div.section
+			section
 				div.subcontainer
 					h4 What features will <strong class="branded">Monsterfan</strong> contain?
 					p It's important that we choose what features MonsterFan will need to have to realise our vision.
