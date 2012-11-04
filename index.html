@@ -4,11 +4,22 @@
     <meta charset="utf-8"/>
     <title>Welcome</title>
     <link rel="stylesheet" href="lib/css/style.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js" type="application/javascript"></script>
+    <script src="lib/js/waypoints.min.js" type="application/javascript"></script>
+    <script src="lib/js/mf.js"></script>
   </head>
-  <body>
+  <body id="top">
     <div class="heading"> 
       <h2>What is <strong class="branded">Monsterfan?</strong></h2>
-      <div class="menu"><a href="#connect">Connect</a><a href="#wantsAndNeeds">Wants and Needs</a><a href="#appeal">Appeal</a><a href="#features">Features</a></div>
+      <nav class="menu">
+        <ul>
+          <li class="logo"><a href="#top">What is <strong class="branded">Monsterfan?</strong></a></li>
+          <li><a href="#connect">Connect</a></li>
+          <li><a href="#wantsAndNeeds">Wants and Needs</a></li>
+          <li><a href="#appeal">Appeal</a></li>
+          <li><a href="#features">Features</a></li>
+        </ul>
+      </nav>
     </div>
     <div class="green">
       <div id="connect" class="subheading">
@@ -17,13 +28,13 @@
           <h3>Connect.</h3>
         </div>
       </div>
-      <div class="section">
-        <div class="subcontainer">
+      <section>
+        <div class="subcontainer first">
           <h4>A new way to meet others who love the same things that you do.</h4>
           <p>Finding people with interests relevent to our own is part of what we strive for every single day. Now, you can do this and more with ease!</p>
           <p>MonsterFan is a great place to find people who share your passion and love for <strong>that</strong> T.V. show, video game, book, band, genre, hobby... the list goes on!</p>
         </div>
-      </div>
+      </section>
     </div>
     <div class="grey">
       <div id="wantsAndNeeds" class="subheading">
@@ -31,7 +42,7 @@
           <h3>Wants and Needs.</h3>
         </div>
       </div>
-      <div class="section">
+      <section>
         <div class="subcontainer">
           <h4>What is needed from <strong class="branded">Monsterfan</strong>?</h4>
           <p>Several things need to be covered when it comes to what we want MonsterFan to do, to be, and to have.</p>
@@ -50,7 +61,7 @@
             </li>
           </ul>
         </div>
-      </div>
+      </section>
     </div>
     <div class="green">
       <div id="appeal" class="subheading">
@@ -58,13 +69,13 @@
           <h3>Appeal.</h3>
         </div>
       </div>
-      <div class="section">
+      <section>
         <div class="subcontainer">
           <h4>How can we appeal to our niché?</h4>
           <p>For every startup, there needs to be an original userbase. That 'niché' group of people that have "been around since alpha." These users are incredibly important, and will likely shape what will inevitably be the type of users and content we will see on MonsterFan.</p>
           <p>How can we appeal to these users? What can we offer that will bring them in?</p>
         </div>
-      </div>
+      </section>
     </div>
     <div class="grey last">
       <div id="features" class="subheading">
@@ -72,9 +83,10 @@
           <h3>Features.</h3>
         </div>
       </div>
-      <div class="section">
+      <section>
         <div class="subcontainer">
           <h4>What features will <strong class="branded">Monsterfan</strong> contain?</h4>
+          <p>It's important that we choose what features MonsterFan will need to have to realise our vision.</p>
           <ul>
             <li> 
               <h3>What is the core feature set?</h3>
@@ -91,7 +103,7 @@
             </li>
           </ul>
         </div>
-      </div>
+      </section>
     </div>
     <div id="footer"><small>©MonsterFan 2012. All rights reserved.</small></div>
   </body>
