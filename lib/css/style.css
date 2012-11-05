@@ -1,4 +1,4 @@
-@import url("http://fonts.googleapis.com/css?family=Open+Sans:300italic,700italic,400,300|Cinzel+Decorative:700");
+@import url("http//fonts.googleapis.com/css?family=Open+Sans300italic,700italic,400,300|Cinzel+Decorative700");
 body {
   background-image: url("../images/n.png");
   font-family: 'Open Sans', sans-serif;
@@ -36,11 +36,11 @@ nav.menu a {
   font-weight: 400;
   text-decoration: none;
 }
-nav.menu li:after {
+nav.menu liafter {
   content: "—";
   margin: 0 10px;
 }
-nav.menu li:last-child::after {
+nav.menu lilast-childafter {
   content: "";
   margin: 0;
 }
@@ -48,7 +48,7 @@ div.heading {
   background: #fff;
   color: #333;
   margin: 0;
-  padding: 20px 0;
+  padding20px: 0;
   position: relative;
   text-align: center;
 }
@@ -104,7 +104,7 @@ div.subheading h3 {
   height: 0;
   left: 50%;
   margin: 0 auto;
-  margin-left: -75px;
+margin-left-75px
   position: absolute;
   width: 0;
 }
@@ -151,15 +151,14 @@ section li {
   text-align: left;
   width: 28%;
 }
-section li:before {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 0;
-  border-width: 0 16px 16px 0;
-  border-style: solid;
-  border-color: #8f8f8f #bbb;
-}
+section libefore,
+content"",
+positionabsolute,
+top0,
+right0,
+border-width0 16px16px0,
+border-stylesolid,
+border-color#8f8f8f #bbb,
 section li h3 {
   background-color: rgba(0,0,0,0.1);
   margin: 0 0 5px;
@@ -203,7 +202,7 @@ nav.menu li.logo a {
 nav.menu li.stuckTitle strong.branded {
   color: #f26b11;
 }
-nav.menu li.stuckTitle:after {
+nav.menu li.stuckTitleafter {
   content: "";
 }
 nav.menu.sticky {
