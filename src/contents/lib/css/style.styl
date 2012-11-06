@@ -176,10 +176,21 @@ section{
 	margin: 0;
 	padding 15px 0;
 	text-align: right;
-	small{
+	small, a{
 		margin-right: 50px;
 		color: #aaa;
 	}
+	a::before {
+		border-left: 5px solid transparent;
+		border-right: 5px solid transparent;
+		border-bottom: 5px solid #aaa;
+		content:"";
+		display: inline-block;
+		height: 0; 
+		margin: 0 6px 4px 0;
+		width: 0; 
+	}
+
 }
 .sticky ul{
 	margin: 0;
